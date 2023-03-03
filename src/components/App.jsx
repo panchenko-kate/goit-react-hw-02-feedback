@@ -33,7 +33,7 @@ export class App extends Component {
     return (
       <Layout>
       <Section title="Please leave feedback">
-      <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.handleIncrement} />
+      <FeedbackOptions options={Object.keys(this.state)} onLeaveFeedback={this.handleIncrement}/>
       </Section>
 
       <Section title="Statistics">

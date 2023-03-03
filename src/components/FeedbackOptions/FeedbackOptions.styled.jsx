@@ -10,13 +10,11 @@ export const List = styled.ul`
 
 export const Btn = styled.button`
     padding: 5px;
+    /* text-transform: capitalize; */
     :hover {
         background-color: #3719c9;
         opacity: 0.5;
         border-radius: 4px;
         color: #e3e3e3;
     }
-    /* :first-letter {
-        text-transform: uppercase;
-    } */
 `;
